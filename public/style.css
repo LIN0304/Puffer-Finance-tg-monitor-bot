@@ -1,0 +1,23 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 1rem;
+  background-color: #f5f5f5;
+}
+
+h1 {
+  color: #333;
+}
+
+#token-list {
+  list-style: none;
+  padding: 0;
+}
+
+#token-list li {
+  background: #fff;
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
