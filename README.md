@@ -13,4 +13,12 @@ This project is a multi-token Ethereum deposit monitoring bot with Telegram noti
    npm start
    ```
 
+### Frontend Web Server
+Serve the simple frontend website with:
+```bash
+npm run web
+```
+The server listens on port `3000` by default and exposes `/api/tokens` and `/api/status` endpoints.
+
+
 Run tests with `npm test`.
